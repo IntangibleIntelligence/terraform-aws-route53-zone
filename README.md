@@ -52,7 +52,7 @@ No requirements.
 | description | The description for the hosted zone. Defaults to 'Managed by Terraform' | `string` | `null` | no |
 | domain | The domain name of the hosted zone | `string` | n/a | yes |
 | private\_zone | A mapping to associate a VPC | `map` | `null` | no |
-| tags | description | `map(string)` | `{}` | no |
+| tags | A map of tags to assign to the zone | `map(string)` | `{}` | no |
 
 ## Outputs
 

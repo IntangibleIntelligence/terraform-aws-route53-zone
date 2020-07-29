@@ -18,5 +18,5 @@ variable private_zone {
 variable tags {
   type        = map(string)
   default     = {}
-  description = "description"
+  description = "A map of tags to assign to the zone"
 }
